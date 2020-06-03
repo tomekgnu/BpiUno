@@ -37,7 +37,7 @@
 #define SPI_USEINT
 // global variables
 volatile u08 spiTransferComplete = FALSE;
-u08 inputValues[6] = {2,3,1,6,7,4};
+extern u08 inputValues[];
 u08 inputBytes[3] = {ADC_BYTES,JOY_BYTES,BUT_BYTES};
 u08 inputIndex = 0;
 inputType currInp = NONE;
